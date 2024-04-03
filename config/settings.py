@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'user_auth',
     'savings',
     'investment',
+    'rest_framework'
 ]
 
 MIDDLEWARE = [

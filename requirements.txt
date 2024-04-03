@@ -3,4 +3,7 @@ Django==3.2.25
 django-decouple==2.1
 sqlparse==0.4.4
 typing_extensions==4.1.1
+djangorestframework
+markdown
+django-filter
 
