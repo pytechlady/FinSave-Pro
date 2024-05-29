@@ -17,11 +17,16 @@ from django.contrib import admin
 from django.urls import path, include
 from django.contrib.auth.models import User
 from rest_framework import routers, serializers, viewsets
+from user_auth.views import UserViewSet
+
 
 # Import necessary modules and functions
+from user_auth.models import User
+
 
 # Router for API endpoints
 router = routers.DefaultRouter()
+
 
 # Serializer for User model
 class UserSerializer(serializers.HyperlinkedModelSerializer):
