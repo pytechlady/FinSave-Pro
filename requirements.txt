@@ -1,3 +1,4 @@
+
 amqp==5.2.0
 asgiref==3.7.2
 async-timeout==4.0.3
@@ -10,6 +11,8 @@ click-repl==0.3.0
 Django==5.0.3
 django-celery-results==2.5.1
 django-cors-headers==4.4.0
+asgiref==3.4.1
+Django==3.2.25
 django-decouple==2.1
 django-redis==5.4.0
 djangorestframework==3.15.2
@@ -23,3 +26,5 @@ typing_extensions==4.10.0
 tzdata==2024.1
 vine==5.1.0
 wcwidth==0.2.13
+typing_extensions==4.1.1
+
